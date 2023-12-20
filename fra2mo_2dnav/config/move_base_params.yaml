@@ -1,0 +1,118 @@
+#original ---------------------------------------------------------------------
+# max_planning_retries: 5           
+# planner_patience: 10
+# number_of_recovery_behaviors: 3
+# planner_frequency: 5
+# controller_frequency: 10
+# allow_unknown: false
+# controller_patience: 3.0
+# oscillation_timeout: 10.0
+# oscillation_distance: 0.2
+# recovery_behaviors:
+#   - name: conservative_reset
+#     type: clear_costmap_recovery/ClearCostmapRecovery
+
+# conservative_reset:
+#   reset_distance: 5
+
+#config1 ---------------------------------------------------------------------
+# max_planning_retries: 5           
+# planner_patience: 20
+# number_of_recovery_behaviors: 5
+# planner_frequency: 10
+# controller_frequency: 20
+# allow_unknown: false
+# controller_patience: 5.0
+# oscillation_timeout: 20.0
+# oscillation_distance: 0.2
+# recovery_behaviors:
+#   - name: conservative_reset
+#     type: clear_costmap_recovery/ClearCostmapRecovery
+
+# conservative_reset:
+#   reset_distance: 5
+
+#config2 ---------------------------------------------------------------------
+# max_planning_retries: 5           
+# planner_patience: 8
+# number_of_recovery_behaviors: 3
+# planner_frequency: 5
+# controller_frequency: 15
+# allow_unknown: false
+# controller_patience: 4.0
+# oscillation_timeout: 8.0
+# oscillation_distance: 0.5
+# recovery_behaviors:
+#   - name: conservative_reset
+#     type: clear_costmap_recovery/ClearCostmapRecovery
+
+# conservative_reset:
+#   reset_distance: 5
+
+#config3 ---------------------------------------------------------------------
+# max_planning_retries: 10           
+# planner_patience: 30
+# number_of_recovery_behaviors: 10
+# planner_frequency: 5
+# controller_frequency: 10
+# allow_unknown: false
+# controller_patience: 10.0
+# oscillation_timeout: 10.0
+# oscillation_distance: 0.2
+# recovery_behaviors:
+#   - name: conservative_reset
+#     type: clear_costmap_recovery/ClearCostmapRecovery
+
+# conservative_reset:
+#   reset_distance: 5
+
+#config4.1 QUESTA CONFIG NON FA PARTIRE IL ROBOT IN QUANTO DICE CHE NONOSTANTE TUTTI I TRY FALLISCE---------------------------------------------------------------------
+# max_planning_retries: 20           
+# planner_patience: 50
+# number_of_recovery_behaviors: 20
+# planner_frequency: 5
+# controller_frequency: 10
+# allow_unknown: false
+# controller_patience: 20.0
+# oscillation_timeout: 20.0
+# oscillation_distance: 0.15
+# recovery_behaviors:
+#   - name: conservative_reset
+#     type: clear_costmap_recovery/ClearCostmapRecovery
+
+# conservative_reset:
+#   reset_distance: 5
+
+#config4.2 ---------------------------------------------------------------------
+# max_planning_retries: 10           
+# planner_patience: 30
+# number_of_recovery_behaviors: 10
+# planner_frequency: 5
+# controller_frequency: 10
+# allow_unknown: false
+# controller_patience: 10.0
+# oscillation_timeout: 10.0
+# oscillation_distance: 0.2
+# recovery_behaviors:
+#   - name: conservative_reset
+#     type: clear_costmap_recovery/ClearCostmapRecovery
+
+# conservative_reset:
+#   reset_distance: 5
+
+#config5 ---------------------------------------------------------------------
+max_planning_retries: 10           
+planner_patience: 30
+number_of_recovery_behaviors: 10
+planner_frequency: 5
+controller_frequency: 10
+allow_unknown: false
+controller_patience: 10.0
+oscillation_timeout: 10.0
+oscillation_distance: 0.2
+recovery_behaviors:
+  - name: conservative_reset
+    type: clear_costmap_recovery/ClearCostmapRecovery
+
+conservative_reset:
+  reset_distance: 5
